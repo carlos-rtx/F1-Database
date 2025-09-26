@@ -2,6 +2,49 @@ body {
   background: #000000;
 }
 /*nav*/
+.nav-wrapper {
+  background: #0005;
+  backdrop-filter: blur(10px);
+  margin: 1rem;
+  border-radius: 1.2rem;
+  border: 3px solid #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff !important;
+  padding: 0 1rem;
+}
+.nav-buttons-container {
+  display: flex;
+  align-items: center;
+  vertical-align: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+.nav-logo-container img {
+  width: 2rem;
+}
+.nav-button{
+  width: 1rem;
+}
+.nav-lang-text {
+  font-size: 0.8rem;
+}
+.nav-lang {
+  display: flex;
+  align-items: center;
+  gap:0.5rem;
+}
+.novisible {
+  display: none !important;
+}
+.nav-list {
+  display: flex;
+  flex-direction: column;
+}
+.nav-link-title {
+  font-size: 2rem;
+}
 /*header*/
 header {
   background: url("/main-assets/Ferrari SF71H, formula one, F1 sports cars, 2018 wallpaper.jpeg") no-repeat;
