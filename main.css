@@ -155,7 +155,44 @@ header {
   padding-bottom: 1.5rem;
 }
 /*latest*/
-
+h2 {
+  font-weight: 400;
+  font-size: 1.7rem;
+}
+.latest-title {
+  display: block;
+}
 .latest-component {
-  background url("")
+  background: url("/main-assets/velocimetro-que-es-y-para-que-sirve-1.jpg.webp") no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding-top: 2rem;
+}
+.latest-button {
+  background: #000a;
+  border: 1px solid #fffb;
+  border-radius: 2rem;
+  padding: 0.5rem 1rem;
+  width: fit-content;
+}
+.latest-description-container {
+  background: #0005;
+  backdrop-filter: blur(10px);
+  border: 1px solid #fff7;
+  border-radius: 1.2rem;
+  width: 70dvw;
+  padding: 1.5rem;
+  margin-left: 5dvw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.latest-buttons {
+  display: flex ;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.latest-button-text {
+  font-family: "Major Mono Display", monospace;
+  font-size: 0.8rem;
 }
