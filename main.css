@@ -1,5 +1,6 @@
 *{
   font-family: "SF Pro", sans-serif;
+  margin: 0;
 }
 
 body {
@@ -17,7 +18,7 @@ margin: 0;
   justify-content: space-between;
   align-items: center;
   color: #fff !important;
-  padding: 0 1rem;
+  padding: 0.2rem 1rem;
 }
 .nav-buttons-container {
   display: flex;
@@ -26,8 +27,11 @@ margin: 0;
   justify-content: center;
   gap: 0.5rem;
 }
+
 .nav-logo-container img {
   width: 2rem;
+  display: flex;
+  justify-content: center;
 }
 .nav-button{
   width: 1rem;
@@ -58,7 +62,8 @@ margin: 0;
   width: 70dvw;
   position: absolute;
   right: 0;
-  gap: 1rem
+  gap: 1rem;
+  z-index: 10;
 }
 .nav-link-title {
   font-size: 1.5rem;
@@ -82,8 +87,23 @@ header {
   height: 100dvh;
   padding-top: 0.1rem;
 }
-h1{
-  color: #fff;
-  font-weight: 400;
+.header-title{
+  background: #0005;
+  backdrop-filter: blur(10px);
+  border: 1px solid #fff5;
+  color: white;
+  margin: 1rem;
+  padding: 1rem;
+  border-radius: 1.2rem;
+  width: 60dvw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
 }
-.header-presentation
+.header-title h1 {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+.header-description {
+  font-size: 0.8rem;
+}
