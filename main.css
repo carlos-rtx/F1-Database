@@ -1,3 +1,12 @@
 body {
   background: #000000;
 }
+/*nav*/
+/*header*/
+header {
+  background: url("/main-assets/Ferrari SF71H, formula one, F1 sports cars, 2018 wallpaper.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100dvw;
+  height: 100dvh;
+}
