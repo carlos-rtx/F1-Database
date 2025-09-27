@@ -227,3 +227,6 @@ h2 {
 .standings-subtitle {
   font-family: "Major Mono Display", monospace;
 }
+.standings-number {
+  font-family: "Space Grotesk", sans-serif;
+}
