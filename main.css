@@ -220,6 +220,9 @@ h2 {
   padding: 1rem;
   border: 1px solid #fff5;
   border-radius: 1.2rem;
+  bottom: 0;
+  margin: 1rem;
+
 }
 .standings-title {
   font-family: "Major Mono Display", monospace;
@@ -229,4 +232,7 @@ h2 {
 }
 .standings-number {
   font-family: "Space Grotesk", sans-serif;
+}
+h3 {
+  font-weight: 400;
 }
