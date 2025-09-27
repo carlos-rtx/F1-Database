@@ -9,10 +9,15 @@ body {
 margin: 0;
 }
 /*nav*/
+nav {
+  position: fixed;
+  width: 100dvw;
+  z-index: 2;
+}
 .nav-wrapper {
   background: #0005;
   backdrop-filter: blur(10px);
-  margin: 0.8rem;
+  margin: 0rem 0.8rem 0.8rem 0.8rem;
   border-radius: 1.2rem;
   border: 1px solid #fff5;
   display: flex;
@@ -86,7 +91,7 @@ header {
   background-position: center;
   width: 100dvw;
   height: 100dvh;
-  padding-top: 0.1rem;
+  padding-top: 1rem;
   position: relative;
 }
 .header-title{
@@ -101,6 +106,7 @@ header {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  margin: 2.5rem 1rem;
 }
 .header-title h1 {
   font-weight: 400;
@@ -162,11 +168,13 @@ h2 {
 .latest-title {
   display: block;
 }
-.latest-component {
+.latest-section {
   background: url("/main-assets/velocimetro-que-es-y-para-que-sirve-1.jpg.webp") no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 2rem;
+  height: 100dvh;
+  position: relative;
 }
 .latest-button {
   background: #000a;
@@ -195,4 +203,18 @@ h2 {
 .latest-button-text {
   font-family: "Major Mono Display", monospace;
   font-size: 0.8rem;
+}
+/*Standings list component*/
+.standings-list-item {
+  display: flex;
+}
+.latest-standings-component {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  background: #0007;
+  backdrop-filter: blur(10px);
+  padding: 1rem;
+  border: 1px solid #fff5;
+  border-radius: 1.2rem;
 }
