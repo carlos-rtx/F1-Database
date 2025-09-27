@@ -207,14 +207,23 @@ h2 {
 /*Standings list component*/
 .standings-list-item {
   display: flex;
+  justify-content: space-between;
+  padding: 0 1rem;
 }
 .latest-standings-component {
   display: flex;
   flex-direction: column;
+  gap: 1rem;
   position: absolute;
   background: #0007;
   backdrop-filter: blur(10px);
   padding: 1rem;
   border: 1px solid #fff5;
   border-radius: 1.2rem;
+}
+.standings-title {
+  font-family: "Major Mono Display", monospace;
+}
+.standings-subtitle {
+  font-family: "Major Mono Display", monospace;
 }
