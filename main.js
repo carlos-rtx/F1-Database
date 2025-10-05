@@ -1,6 +1,7 @@
 window.addEventListener("DOMContentLoaded", (e) => {
   console.log("dom loaded successfully")
 });
+
 const menuButton = document.querySelector(".open-button");
 const langButton = document.querySelector(".lang-button");
 const langTxt = document.querySelector(".nav-lang-text")
