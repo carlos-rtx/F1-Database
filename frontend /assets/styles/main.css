@@ -6,7 +6,8 @@
 
 body {
   background: #000000;
-margin: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 /*nav*/
 nav {
@@ -32,12 +33,14 @@ nav {
   vertical-align: center;
   justify-content: center;
   gap: 0.5rem;
+  order: 3;
 }
 
 .nav-logo-container img {
   width: 2rem;
   display: flex;
   justify-content: center;
+  order: 1;
 }
 .nav-button{
   width: 1rem;
@@ -62,7 +65,7 @@ nav {
   backdrop-filter: blur(10px);
   box-sizing: border-box;
   margin: 0.5rem 1rem;
-  padding: 1rem;
+  padding: 1.5rem;
   border: 1px solid #fff5;
   border-radius: 1.2rem;
   width: 70dvw;
@@ -72,10 +75,11 @@ nav {
   z-index: 10;
 }
 .nav-link-title {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   display: block;
   text-decoration: none;
   color: #fff;
+  margin-bottom: 0.25rem;
 }
 
 .nav-link-content {
@@ -83,10 +87,11 @@ nav {
   display: block;
   text-decoration: none;
   color: #fff;
+  letter-spacing: 0.1px;
 }
 /*header*/
 header {
-  background: url("/main-assets/Ferrari SF71H, formula one, F1 sports cars, 2018 wallpaper.jpeg") no-repeat;
+  background: url("main-assets/Ferrari SF71H, formula one, F1 sports cars, 2018 wallpaper.jpeg") no-repeat;
   background-size: cover;
   background-position: center;
   width: 100dvw;
@@ -99,67 +104,37 @@ header {
   backdrop-filter: blur(10px);
   border: 1px solid #fff5;
   color: white;
-  margin: 1rem;
-  padding: 1rem;
+  padding: 2rem;
   border-radius: 1.2rem;
-  width: 60dvw;
+  width: 50dvw;
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
-  margin: 2.5rem 1rem;
+  margin: 5rem 1.5rem;
 }
 .header-title h1 {
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 2rem;
+  display: inline-block;
+}
+.header-button {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid red;
+  width: fit-content;
+  border-radius: 20rem;
+  background: rgba(166, 6, 6, 0.400);
+  font-family:"Major Mono Display" ;
+  font-size: 0.8rem;
+}
+.header-button:hover {
+  background: rgba(1);
+}
+.header-description {
+  font-size: 0.9rem;
 }
 
-.header-description {
-  font-size: 0.8rem;
-}
-.widget-s1-content {
-  font-family: "Major Mono Display", monospace;
-  font-size: 0.7rem;
-}
-.header-latest-widget {
-  width: 100dvw;
-  padding:  0 1rem;
-  position: absolute;
-  bottom: 0;
-  box-sizing: border-box;
-}
-.widget-wrapper {
-  display: flex;
-  padding: 0.5rem;
-  background: #0005;
-  backdrop-filter: blur(10px);
-  width: 100%;
-  box-sizing: border-box;
-  border-radius: 1.2rem;
-  border: 1px solid #fff5;
-  margin-bottom: 2rem;
-}
-.widget-image {
-  height: 100%;
-  width: 40%;
-  border-radius: 1rem;
-}
-.widget-s1 {
-  display: flex;
-  flex-direction: column;
-  padding: 0 0 0 1rem;
-  justify-content: space-between;
-  height: 100%;
-}
-.widget-s1-title {
-  letter-spacing: 0.5rem;
-  font-size: 0.8rem;
-  text-align: center;
-}
-.widget-content-container {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 1.5rem;
-}
 /*latest*/
 h2 {
   font-weight: 400;
@@ -169,7 +144,7 @@ h2 {
   display: block;
 }
 .latest-section {
-  background: url("/main-assets/velocimetro-que-es-y-para-que-sirve-1.jpg.webp") no-repeat;
+  background: url("main-assets/velocimetro-que-es-y-para-que-sirve-1.jpg.webp") no-repeat;
   background-position: center;
   background-size: cover;
   padding-top: 2rem;
@@ -247,6 +222,34 @@ h3 {
 /*history section*/
 .history-section {
   height: 100dvh;
-  background: url("/main-assets/Ayrton_Senna_in_1988.jpg") no-repeat center;
+  background: url("main-assets/Ayrton_Senna_in_1988.jpg") no-repeat center;
   background-size: cover;
+}
+
+@media (min-width: 768px) {
+  .nav-link-content {
+    display: none;
+  }
+  .nav-list {
+    position: static;
+    flex-direction: row;
+    background: none;
+    border: none;
+    border-radius: none;
+    backdrop-filter: none;
+    padding: 0;
+    margin: 0;
+    width: fit-content;
+    font-size: 1rem !important;
+    order: 2;
+  }
+  .nav-link-title {
+    font-size: 1rem;
+  }
+  .nav-lang {
+    font-size: 1rem;
+  }
+  .open-button {
+    display: none;
+  }
 }
