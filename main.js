@@ -27,7 +27,7 @@ langButton.addEventListener("click", (e) => {
   }
 })
 
-/*langSel.forEach(function() {
+/*langSel.forEach(function(bigger.ihger) {
   elem.addEventListener("click", (e) => {
     console.log("test");
   })

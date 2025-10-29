@@ -1,7 +1,8 @@
 import React from 'react';
+import { useState } from "react";
 import './fonts.css';
 import './main.css';
-
+'use strict'
 export default function F1Database() {
   return (
     <>
