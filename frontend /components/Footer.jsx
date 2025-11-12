@@ -1,9 +1,14 @@
-export default function footerPC() {
-  return (
+import React from "react"
+import { useState, useEffect } from "react";
+export default function Footer() {
+  return ( 
     <>
       <div className="footer-container">
-        //todo: create the footer component
+        {/*TODO: CREATE THE FOOTER COMPONENT*/}
       </div>
+        <div>
+          
+        </div>
     </>
   )
 }
