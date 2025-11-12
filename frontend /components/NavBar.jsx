@@ -8,7 +8,7 @@ export default function NavBar() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+setInterval(() => {console.log(window.innerWidth)}, 5000)
   return (
     <>
       {isMobile ? (
@@ -38,7 +38,7 @@ export default function NavBar() {
             </div>
           </div>
         </nav>
-      ) : null }
+      ) : console.log("i need to program the pc version lil brochacho")}
     </>
   );
 }
