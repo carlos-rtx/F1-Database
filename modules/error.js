@@ -5,3 +5,4 @@ class Exception extends Error {
   
 }
 export default Exception;
+//todo: extend the exception module
