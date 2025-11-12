@@ -1,4 +1,5 @@
 import React from "react";
+import Search from "SearchEngineOp.jsx";
 import { Helmet } from "react-helmet";
 
 export default function HeadSection({ title }) {
@@ -6,7 +7,7 @@ export default function HeadSection({ title }) {
     <Helmet>
       <meta charSet="UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
-
+      <Search/>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
       <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
       <link
