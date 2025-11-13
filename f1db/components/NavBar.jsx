@@ -2,39 +2,48 @@
 import React, { useState, useEffect } from "react";
 
 export default function NavBar() {
-  // Inicializamos correctamente el estado usando una función para leer window solo en cliente
+  // Estado inicial calculado en el primer render, solo si existe window
   const [isMobile, setIsMobile] = useState(() => {
     if (typeof window !== "undefined") {
       return window.innerWidth <= 800;
     }
-    return false; // default si se renderiza en servidor
+    return false; // default si prerender en servidor
   });
 
   useEffect(() => {
-    // Handler para actualizar el estado cuando se cambia el tamaño de la ventana
+    // Solo manejamos resize después del primer render
     const handleResize = () => setIsMobile(window.innerWidth <= 800);
     window.addEventListener("resize", handleResize);
-    return () => {
-      window.removeEventListener("resize", handleResize);
-    };
+
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
 
   return (
-    <>
-      {isMobile ? (
-        <nav>
-          <div className="nav-wrapper">
+    <nav>
+      <div className="nav-wrapper">
+        {isMobile ? (
+          <div> {/* mobile layout */}
             <div className="nav-logo-container">
-              <img
-                src="/images/imgbin_b5547cde756547246735f67decd7d946.png"
-                alt="logo"
-              />
+              <img src="/images/imgbin_b5547cde756547246735f67decd7d946.png" alt="logo"/>
             </div>
-
             <div className="nav-buttons-container">
-              <div className="nav-lang lang-selector">
-                <span className="nav-lang-text lang-selector">EN</span>
-                <img
+              {/* tus botones mobile */}
+            </div>
+          </div>
+        ) : (
+          <div> {/* desktop layout */}
+            <div className="nav-logo-container">
+              <img src="/images/imgbin_b5547cde756547246735f67decd7d946.png" alt="logo"/>
+            </div>
+            <div className="nav-buttons-container">
+              {/* tus botones desktop */}
+            </div>
+          </div>
+        )}
+      </div>
+    </nav>
+  );
+}                <img
                   src="/images/language_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
                   alt="lang icon"
                   className="nav-button lang-button"
