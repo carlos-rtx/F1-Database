@@ -1,6 +1,6 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import styles from "././NavBar.module.css"
+import styles from "./NavBar.module.css"
 
 export default function NavBar() {
   // Estado inicial calculado en el primer render, solo si existe window
