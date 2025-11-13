@@ -1,4 +1,5 @@
-{/*fetch from api and show here */}import React from "react";
+{/*fetch from api and show here */}
+import React from "react";
 
 //main document structure
 export default function F1DbMain() {
@@ -17,4 +18,4 @@ At max speed</h1>
     </>
   )
 }
-//end1
+//endl

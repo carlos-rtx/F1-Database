@@ -1,7 +1,7 @@
 import "../styles/globals.css";
 import { localFont } from 'next/font/local';
 import { Major_Mono_Display, Space_Grotesk } from 'next/font/google';
-
+import Footer from "../components/Footer.jsx"
 import Header from "../components/Head_main.jsx"
 import NavBar from "../components/NavBar.jsx";
 
@@ -52,6 +52,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar/>
         {children}
+        <Footer/>
       </body>
     </html>
   );
