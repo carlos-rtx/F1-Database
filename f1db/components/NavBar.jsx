@@ -1,5 +1,4 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 
 export default function NavBar() {
@@ -40,7 +39,10 @@ setInterval(() => {console.log(window.innerWidth)}, 5000)
             </div>
           </div>
         </nav>
-      ) : console.log("i need to program the pc version lil brochacho")}
+      ) : 
+      <div>
+
+      </div> }
     </>
   );
 }
