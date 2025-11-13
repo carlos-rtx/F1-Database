@@ -14,13 +14,8 @@ export default function NavBar() {
     // Handler para actualizar el estado cuando se cambia el tamaño de la ventana
     const handleResize = () => setIsMobile(window.innerWidth <= 800);
     window.addEventListener("resize", handleResize);
-
-    // Interval solo para debug/console
-    const interval = setInterval(() => console.log(window.innerWidth), 5000);
-
     return () => {
       window.removeEventListener("resize", handleResize);
-      clearInterval(interval);
     };
   }, []);
 
