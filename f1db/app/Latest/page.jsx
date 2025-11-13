@@ -1,11 +1,10 @@
 import React from "react";
-import NavBar from "../components/NavBar.jsx";
+
 //main document structure
 export default function F1DbMain() {
   return (
     <>
       <header>
-      <NavBar/>
       <article className="header-title">
     <h1>F1 Data <br/>
 At max speed</h1>
