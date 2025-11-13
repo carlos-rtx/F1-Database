@@ -1,12 +1,12 @@
 // app/_not-found/page.js
+import Link from "next/link"
 export default function NotFoundPage() {
-  const homePage = "../page.jsx"
   return (
     <>
       <h1>Page not found</h1>
-      <a href={homePage}>
+      <Link href="/">
         Return to main page
-      </a>
+      </Link>
     </>
   )
 }
