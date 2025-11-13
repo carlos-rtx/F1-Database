@@ -46,7 +46,7 @@ export default function NavBar() {
           />
         </div>
       </div>
-      <ul className={`${stylse.navList} ${styles.novisible}`}>
+      <ul className={`${styles.navList} ${styles.novisible}`}>
         <li className={styles.navElement}>
           <a className={styles.navLinkTitle} href="#">
             Technical
