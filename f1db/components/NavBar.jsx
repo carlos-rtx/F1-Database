@@ -42,7 +42,7 @@ export default function NavBar() {
           </div>
 
           <Image
-            src="/images/apps_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+            src="/images/vecteezy_formula-1-logo-racing_.jpg"
             alt="menu icon"
             width={24}
             height={24}
