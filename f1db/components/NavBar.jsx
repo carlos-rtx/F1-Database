@@ -1,50 +1,56 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import styles from "./NavBar.module.css"
+import Image from "next/image";
+import styles from "./NavBar.module.css";
+
 export default function NavBar() {
-  // Estado inicial calculado en el primer render, solo si existe window
   const [isMobile, setIsMobile] = useState(() => {
-    if (typeof window !== "undefined") {
-      return window.innerWidth <= 800;
-    }
-    return false; // default si prerender en servidor
+    if (typeof window !== "undefined") return window.innerWidth <= 800;
+    return false;
   });
-//use effect y resize handler
+
   useEffect(() => {
-    // Solo manejamos resize después del primer render
     const handleResize = () => setIsMobile(window.innerWidth <= 800);
     window.addEventListener("resize", handleResize);
-
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
+  if (!isMobile) return <div>{/* navbar escritorio */}</div>;
+
   return (
-    <>
-      {isMobile ?
-      <nav className={styles.navMain}>
+    <nav className={styles.navMain}>
       <div className={styles.navWrapper}>
         <div className={styles.navLogoContainer}>
-          <img
-            src="../public/images/imgbin_b5547cde756547246735f67decd7d946.png"
+          <Image
+            src="/images/imgbin_b5547cde756547246735f67decd7d946.png"
             alt="logo"
+            width={120}
+            height={60}
           />
         </div>
+
         <div className={styles.navButtonsContainer}>
-          <div className={`${styles.navLang} ${ styles.langSelector}`}>
+          <div className={`${styles.navLang} ${styles.langSelector}`}>
             <span className={`${styles.navLangText} ${styles.langSelector}`}>EN</span>
-            <img
-              src="../public/images/language_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
+            <Image
+              src="/images/language_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
               alt="lang icon"
+              width={24}
+              height={24}
               className={`${styles.navButton} ${styles.langButton}`}
             />
           </div>
-          <img
-            src="../public/images/apps_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
+
+          <Image
+            src="/images/apps_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
             alt="menu icon"
+            width={24}
+            height={24}
             className={`${styles.navButton} ${styles.openButton}`}
           />
         </div>
       </div>
+
       <ul className={`${styles.navList} ${styles.novisible}`}>
         <li className={styles.navElement}>
           <a className={styles.navLinkTitle} href="#">
@@ -63,8 +69,7 @@ export default function NavBar() {
           </a>
         </li>
         <li className={styles.navElement}>
-          <a className={styles
-          .navLinkTitle} href="#">
+          <a className={styles.navLinkTitle} href="#">
             History
           </a>
           <a className={styles.navLinkContent} href="#">
@@ -80,14 +85,8 @@ export default function NavBar() {
           </a>
         </li>
       </ul>
-    </nav> 
-      :
-      <div>
-        
-      </div>
-      }
-    </>
-    
+    </nav>
   );
 }
-//examen el
+//examen el 25, revisión de libreta el 2 de diciembre, entrega de calificaciones, 3 diciembre
+//Química 
