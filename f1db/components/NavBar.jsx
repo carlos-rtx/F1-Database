@@ -18,14 +18,14 @@ export default function NavBar() {
   if (!isMobile) return <div>{/* navbar escritorio */}</div>;
 
   return (
-    <nav className={styles.navMain} style={{ position:relative }}>
+    <nav className={styles.navMain} style={{ position: "relative" }}>
       <div className={styles.navWrapper}>
         <div className={styles.navLogoContainer}>
           <Image
             src="/images/imgbin_b5547cde756547246735f67decd7d946.png"
             alt="logo"
             fill
-            style= {{ objectFit: contain}}
+            style= {{ objectFit: "contain" }}
           />
         </div>
 
