@@ -21,7 +21,7 @@ export default function NavBar() {
   return (
     <nav>
       <div className="nav-wrapper">
-        {isMobile ? (
+        {isMobile ? 
           <div> {/* mobile layout */}
             <div className="nav-logo-container">
               <img src="/images/imgbin_b5547cde756547246735f67decd7d946.png" alt="logo"/>
@@ -30,7 +30,7 @@ export default function NavBar() {
               {/* tus botones mobile */}
             </div>
           </div>
-        ) : (
+         : 
           <div> {/* desktop layout */}
             <div className="nav-logo-container">
               <img src="/images/imgbin_b5547cde756547246735f67decd7d946.png" alt="logo"/>
@@ -39,27 +39,8 @@ export default function NavBar() {
               {/* tus botones desktop */}
             </div>
           </div>
-        )}
+        }
       </div>
     </nav>
-  );
-}                <img
-                  src="/images/language_24dp_FFFFFF_FILL0_wght400_GRAD0_opsz24.svg"
-                  alt="lang icon"
-                  className="nav-button lang-button"
-                />
-              </div>
-              <img
-                src="/images/apps_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
-                alt="menu icon"
-                className="nav-button open-button"
-              />
-            </div>
-          </div>
-        </nav>
-      ) : (
-        <div></div>
-      )}
-    </>
   );
 }
