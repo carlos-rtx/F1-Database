@@ -21,14 +21,14 @@ export default function NavBar() {
     <nav className={styles.navMain} style={{ position: "relative" }}>
       <div className={styles.navWrapper}>
         <div className={styles.navLogoContainer}>
-          <Image
-            src="/images/imgbin_b5547cde756547246735f67decd7d946.png"
-            alt="logo"
-            fill
-            style= {{ objectFit: "contain" }}
-          />
+  <Image
+    src="/images/logo.png"
+    alt="logo"
+    fill
+    style={{ objectFit: "contain" }}
+  />
+</div>
         </div>
-
         <div className={styles.navButtonsContainer}>
           <div className={`${styles.navLang} ${styles.langSelector}`}>
             <span className={`${styles.navLangText} ${styles.langSelector}`}>EN</span>
@@ -49,8 +49,6 @@ export default function NavBar() {
             className={`${styles.navButton} ${styles.openButton}`}
           />
         </div>
-      </div>
-
       <ul className={`${styles.navList} ${styles.novisible}`}>
         <li className={styles.navElement}>
           <a className={styles.navLinkTitle} href="#">
