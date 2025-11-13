@@ -14,13 +14,13 @@ const SFPro = localFont({
       format: 'woff2',
     },
     {
-      path: '../public/fonts/SFProDisplay-UltraLightItalic.woff2',
+      path: '../public/fonts/SFProDisplay-UltralightItalic.woff2',
       weight: '200',
       style: 'normal',
       format: 'woff2',
     },
     {
-      path: '../public/fonts/SFProDisplayMedium.woff2',
+      path: '../public/fonts/SFProDisplay-Medium.woff2',
       weight: '600',
       style: 'normal',
       format: 'woff2',
@@ -32,6 +32,7 @@ const SFPro = localFont({
       format: 'woff2',
     },
   ],
+  display: 'swap',
 });
 
 const majorMonoDisplay = Major_Mono_Display({
@@ -47,8 +48,8 @@ const spaceGrotesk = Space_Grotesk({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${SFPro.className} ${majorMonoDisplay.className} ${spaceGrotesk.className}`}>
+      <Header/>
       <body>
-        <Header/>
         <NavBar/>
         {children}
       </body>
