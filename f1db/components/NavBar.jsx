@@ -22,7 +22,7 @@ export default function NavBar() {
       <div className={styles.navWrapper}>
         <div className={styles.navLogoContainer}>
   <Image
-    src="/images/logo.png"
+    src="/images/vecteezy_formula-1-logo-racing_.jpg"
     alt="logo"
     fill
     style={{ objectFit: "contain" }}
@@ -42,7 +42,7 @@ export default function NavBar() {
           </div>
 
           <Image
-            src="/images/vecteezy_formula-1-logo-racing_.jpg"
+            src="/images/menu_24dp_E3E3E3_FILL0_wght400_GRAD0_opsz24.svg"
             alt="menu icon"
             width={24}
             height={24}
