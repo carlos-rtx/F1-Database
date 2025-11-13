@@ -9,7 +9,7 @@ body {
   margin: 0;
   overflow-x: hidden;
 }
-nav {
+.nav-main {
   position: fixed;
   width: 100dvw;
   z-index: 2;

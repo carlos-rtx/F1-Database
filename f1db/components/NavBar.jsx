@@ -22,7 +22,7 @@ export default function NavBar() {
   return (
     <>
       {isMobile ?
-      <nav>
+      <nav className="nav-main">
       <div className="nav-wrapper">
         <div className="nav-logo-container">
           <img
