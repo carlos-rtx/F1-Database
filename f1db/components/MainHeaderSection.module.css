@@ -1,9 +1,8 @@
 
 /*header*/
 .mainHeaderSection {
-  background: url("/images/Ferrari SF71H, formula one, F1 sports cars, 2018 wallpaper.jpeg") no-repeat;
+  background: url("/images/Ferrari Sf71h F1 Formula io Wallpaper HD Car 1.png") no-repeat;
   background-size: cover;
-  background-position: center;
   width: 100dvw;
   height: 100dvh;
   padding-top: 1rem;
@@ -43,4 +42,31 @@
 }
 .headerDescription {
   font-size: 0.9rem;
+}
+
+
+
+
+@media (min-width: 768px) {
+    .headerTitle {
+        width: 30dvw;
+        margin: 3rem 1.5rem;
+        padding: 2rem;
+        gap: 1rem;
+    }
+    .headerTitleH1 {
+        font-size: 3rem;
+        font-weight:600;
+    }
+    .headerOverlay {
+        width: 100dvw;
+        height: 70dvh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+    }
+    .headerDescription {
+        font-size: 1.2rem;
+    }
 }
