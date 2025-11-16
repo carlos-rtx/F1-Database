@@ -24,8 +24,11 @@ export default function LatestWidget() {
           className={`${styles.widgetS1} ${styles.widgetS2} ${styles.novisible}`}
         >
           <span className={styles.widgetS1Title}>PODIUM</span>
-          <p className={styles.widgetS1Content}>2025 Azerbaijan Grand Prix</p>
-          <p className={styles.widgetS1Content}>Baku City Circuit</p>
+          <ol>
+            <li className={styles.widgetS1Content}>1</li>
+            <li className={styles.widgetS1Content}>2</li>
+            <li className={styles.widgetS1Content}>3</li>
+          </ol>
         </div>
       </div>
     </div>
