@@ -5,6 +5,7 @@ import Footer from "../components/Footer.jsx"
 import Header from "../components/Head_main.jsx"
 import NavBar from "../components/NavBar.jsx";
 
+
 const SFPro = localFont({
   src: [
     {
@@ -48,7 +49,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${SFPro.variable} ${majorMonoDisplay.variable} ${spaceGrotesk.variable}`}>
       <Header/>
-      <body className={SFPro.className}>
+      <body>
         <NavBar/>
         {children}
         <Footer/>
