@@ -2,12 +2,14 @@
 .navMain {
   position: fixed;
   width: 100dvw;
+  height: fit-content;
   z-index: 2;
 }
+
 .navWrapper {
   background: #0005;
   backdrop-filter: blur(10px);
-  margin: 0rem 0.8rem 0.8rem 0.8rem;
+  margin: 0.8rem 0.8rem 0.8rem 0.8rem;
   border-radius: 1.2rem;
   border: 1px solid #fff5;
   display: flex;
@@ -25,17 +27,18 @@
   order: 3;
 }
 
-.navLogoContainer img {
-  width: 2rem;
+.navLogoContainerImg {
   display: flex;
   justify-content: center;
   order: 1;
-}
+  margin-left: 0.8rem;
+} 
 .navButton{
   width: 1rem;
 }
 .navLangText {
-  font-size: 0.4rem 0.8rem;
+  font-size: 0.8rem;
+  user-select: none;
 }
 .navLang {
   display: flex;
@@ -77,4 +80,27 @@
   text-decoration: none;
   color: #fff;
   letter-spacing: 0.1px;
+}
+.navListPC {
+  display: flex;
+  background: none;
+  margin: 0;
+  padding: 0;
+  width: fit-content;
+  position: static;
+  gap: 2rem;
+}
+.navElementPC {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+
+}
+.navLinkTitlePC {
+  font-size: 1rem;
+  margin-bottom: 0;
+  text-decoration: none;
+}
+.navElementPC:last-child {
+  margin-right: 0.8rem;
 }

@@ -1,0 +1,46 @@
+
+/*header*/
+.mainHeaderSection {
+  background: url("/images/Ferrari SF71H, formula one, F1 sports cars, 2018 wallpaper.jpeg") no-repeat;
+  background-size: cover;
+  background-position: center;
+  width: 100dvw;
+  height: 100dvh;
+  padding-top: 1rem;
+  position: relative;
+}
+.headerTitle{
+  background: #0005;
+  backdrop-filter: blur(10px);
+  border: 1px solid #fff5;
+  color: white;
+  padding: 2rem;
+  border-radius: 1.2rem;
+  width: 50dvw;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin: 5rem 1.5rem;
+}
+.headerTitleH1 {
+  font-weight: 400;
+  font-size: 2rem;
+  display: inline-block;
+}
+.headerButton {
+  display: block;
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid red;
+  width: fit-content;
+  border-radius: 20rem;
+  background: rgba(166, 6, 6, 0.400);
+  font-family:"Major Mono Display" ;
+  font-size: 0.8rem;
+}
+.headerButton:hover {
+  background: rgba(1);
+}
+.headerDescription {
+  font-size: 0.9rem;
+}
