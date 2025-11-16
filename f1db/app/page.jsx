@@ -10,6 +10,7 @@ export default function F1DbMain() {
     <>
       <header>
         <NavBar/>
+        <Header/>
       </header>
     </>
   )
