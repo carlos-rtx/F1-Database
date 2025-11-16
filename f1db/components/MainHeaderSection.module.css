@@ -3,6 +3,7 @@
 .mainHeaderSection {
   background: url("/images/Ferrari Sf71h F1 Formula io Wallpaper HD Car 1.png") no-repeat;
   background-size: cover;
+  background-position: center;
   width: 100dvw;
   height: 100dvh;
   padding-top: 1rem;
