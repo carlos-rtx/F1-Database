@@ -48,7 +48,7 @@ const spaceGrotesk = Space_Grotesk({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${SFPro.variable} ${majorMonoDisplay.variable} ${spaceGrotesk.variable}`}>
-      <HtmlHead/>
+      <HtmlHead title="F1 Database"/>
       <body>
         <NavBar/>
         {children}

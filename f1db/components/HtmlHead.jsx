@@ -1,7 +1,7 @@
 import React from "react";
 import Head from "next/head.js";
 
-export default function HeadSection({ title = "F1 Database" }) {
+export default function HeadSection({ title }) {
   return (
     <Head>
       <meta property="og:url" content="https://f1-databas3.vercel.app/"/>
