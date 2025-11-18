@@ -15,7 +15,6 @@ export const metadata = {
   authors: [{ name: "Chärles" }],
   robots: "index, follow",
   language: "en",
-  viewport: "width=device-width, initial-scale=1",
   charset: "UTF-8",
   revisitAfter: "2 days",
   openGraph: {
