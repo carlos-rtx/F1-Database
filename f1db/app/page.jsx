@@ -8,6 +8,7 @@ import Technical from "../components/../components/MainTechnicalSection.jsx";
 export const metadata = {
   title: "Main",
 }
+metadata.title = "Main";
 //main document structure
 export default function F1DbMain() {
   return (

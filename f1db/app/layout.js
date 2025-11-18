@@ -19,7 +19,7 @@ export const metadata = {
   revisitAfter: "2 days",
   openGraph: {
     type: "website",
-    url: "https://f1-databas3.vercel.app/",
+    url: "https://f1-database.vercel.app/",
     title: "F1 Database",
     description: "Discover the interactive F1 Database, results, stats, history & all about Formula 1",
     images: [
