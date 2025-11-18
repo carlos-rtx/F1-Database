@@ -4,7 +4,10 @@ import Header from "../components/../components/MainHeaderSection.jsx";
 import Latest from "../components/../components/LatestWidget.jsx"
 import History from "../components/../components/MainHistorySection.jsx";
 import Technical from "../components/../components/MainTechnicalSection.jsx";
-
+// title
+export const metadata = {
+  title: "Main",
+}
 //main document structure
 export default function F1DbMain() {
   return (

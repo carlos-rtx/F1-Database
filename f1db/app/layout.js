@@ -1,11 +1,47 @@
+//imports
 import "../styles/globals.css";
 import localFont from 'next/font/local';
 import { Major_Mono_Display, Space_Grotesk } from 'next/font/google';
 import Footer from "../components/Footer.jsx"
 import HtmlHead from "../components/HtmlHead.jsx"
 import NavBar from "../components/NavBar.jsx";
-
-
+//metadata 
+export const metadata = {
+  title: {
+    template: "%s | F1 Database",
+  },
+  description: "Discover the interactive F1 Database, results, stats, history & all about Formula 1",
+  keywords: ["f1", "formula", "1", "formula1", "cars", "motorsport", "wheels", "sports", "formula 1", "pcs"],
+  authors: [{ name: "Chärles" }],
+  robots: "index, follow",
+  language: "en",
+  viewport: "width=device-width, initial-scale=1",
+  charset: "UTF-8",
+  revisitAfter: "2 days",
+  openGraph: {
+    type: "website",
+    url: "https://f1-databas3.vercel.app/",
+    title: "F1 Database",
+    description: "Discover the interactive F1 Database, results, stats, history & all about Formula 1",
+    images: [
+      "https://opengraph.b-cdn.net/production/images/b3fb204d-8acb-4923-bd10-470b9af4237d.png?token=HdCsqSWd3mFxvCPg9Yrd0IETwGggeirJg1v9vUhaw9k&height=613&width=1200&expires=33290888846"
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    domain: "f1-database.vercel.app",
+    url: "https://f1-database.vercel.app/",
+    title: "F1 Database",
+    description: "Discover the interactive F1 Database, results, stats, history & all about Formula 1",
+    images: [
+      "https://opengraph.b-cdn.net/production/images/b3fb204d-8acb-4923-bd10-470b9af4237d.png?token=HdCsqSWd3mFxvCPg9Yrd0IETwGggeirJg1v9vUhaw9k&height=613&width=1200&expires=33290888846"
+    ],
+  },
+  verification: {
+    google: ""
+  }
+};
+//fonts
 const SFPro = localFont({
   src: [
     {
@@ -48,14 +84,9 @@ const spaceGrotesk = Space_Grotesk({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${SFPro.variable} ${majorMonoDisplay.variable} ${spaceGrotesk.variable}`}>
-      <head>
-        <HtmlHead title="F1 Database "/>
-      </head>
-      <body>
         <NavBar/>
         {children}
         <Footer/>
-      </body>
     </html>
   );
 }
