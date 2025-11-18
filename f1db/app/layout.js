@@ -2,7 +2,7 @@ import "../styles/globals.css";
 import localFont from 'next/font/local';
 import { Major_Mono_Display, Space_Grotesk } from 'next/font/google';
 import Footer from "../components/Footer.jsx"
-import Header from "../components/Head_main.jsx"
+import HtmlHead from "../components/HtmlHead.jsx"
 import NavBar from "../components/NavBar.jsx";
 
 
@@ -48,7 +48,7 @@ const spaceGrotesk = Space_Grotesk({
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${SFPro.variable} ${majorMonoDisplay.variable} ${spaceGrotesk.variable}`}>
-      <Header/>
+      <HtmlHead/>
       <body>
         <NavBar/>
         {children}
