@@ -8,7 +8,7 @@ import NavBar from "../components/NavBar.jsx";
 export const metadata = {
   title: {
     template: "%s | F1 Database",
-    default: "F1 Database"
+    default: "F1 Database",
   },
   description: "Discover the interactive F1 Database, results, stats, history & all about Formula 1",
   keywords: ["f1", "formula", "1", "formula1", "cars", "motorsport", "wheels", "sports", "formula 1", "pcs"],
@@ -41,6 +41,13 @@ export const metadata = {
     google: ""
   }
 };
+//viewport
+export const viewport = {
+  width: 'device-width',
+  initialScale: 1,
+  maximumScale: 1,
+  userScalable: false,
+}
 //fonts
 const SFPro = localFont({
   src: [
