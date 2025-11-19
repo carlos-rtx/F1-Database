@@ -4,8 +4,16 @@
   color: #fff;
 }
 
-body {
+
+/* Oculta el scrollbar, pero sigue permitiendo scroll */
+::-webkit-scrollbar {
+  display: none;
+}
+
+html, body {
+  -ms-overflow-style: none;  /* IE y Edge */
+  scrollbar-width: none;
   background: #000000;
   margin: 0;
-  overflow-x: hidden;
+  overflow-x: hidden;     /* Firefox */
 }
