@@ -1,5 +1,7 @@
 import React from "react";
-
+export const metadata = {
+  title: "Latest",
+}
 //main document structure
 export default function F1DbMain() {
   return (

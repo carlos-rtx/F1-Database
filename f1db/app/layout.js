@@ -4,8 +4,9 @@ import localFont from 'next/font/local';
 import { Major_Mono_Display, Space_Grotesk } from 'next/font/google';
 import Footer from "../components/Footer.jsx"
 import NavBar from "../components/NavBar.jsx";
+
 //metadata 
-export const metadata = {
+export let metadata = {
   title: {
     template: "%s | F1 Database",
     default: "F1 Database",
@@ -86,13 +87,15 @@ const spaceGrotesk = Space_Grotesk({
   subsets: ['latin'],
   variable: '--font-space-grotesk',
 });
-
+//layout structure
 export default function RootLayout({ children }) {
   return (
     <html lang="en" className={`${SFPro.variable} ${majorMonoDisplay.variable} ${spaceGrotesk.variable}`}>
+      <body>
         <NavBar/>
         {children}
         <Footer/>
+        </body>
     </html>
   );
 }
