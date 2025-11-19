@@ -1,13 +1,13 @@
 import React from "react";
 import NavBar from "../components/NavBar.jsx";
-import Header from "../components/../components/MainHeaderSection.jsx";
-import Latest from "../components/../components/LatestWidget.jsx"
-import History from "../components/../components/MainHistorySection.jsx";
-import Technical from "../components/../components/MainTechnicalSection.jsx";
+import Header from "../components/MainHeaderSection.jsx";
+import Latest from "../components/LatestWidget.jsx"
+import History from "../components/MainHistorySection.jsx";
+import Technical from "../components/MainTechnicalSection.jsx";
 // title
-export const dynamicMetadata = (title) => ({
-  title: title || "Home",
-});
+export const metadata = {
+  title: "Home | F1 Database",
+}
 //main document structure
 export default function F1DbMain() {
   return (
