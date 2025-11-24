@@ -4,6 +4,7 @@ import localFont from 'next/font/local';
 import { Major_Mono_Display, Space_Grotesk } from 'next/font/google';
 import Footer from "../components/Footer.jsx"
 import NavBar from "../components/NavBar.jsx";
+import RandomConfetti from "../components/Rand.jsx"
 
 //metadata 
 export let metadata = {
@@ -94,6 +95,7 @@ export default function RootLayout({ children }) {
       <body>
         <NavBar/>
         {children}
+        <RandomConfetti/>
         <Footer/>
         </body>
     </html>

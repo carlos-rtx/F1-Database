@@ -23,7 +23,7 @@ export default function LatestWidget() {
         </div>
         </div>
         <div
-          className={`${styles.innerWidgetContent} ${styles.widgetS2} ${styles.novisible}`}
+          className={`${styles.innerWidgetContent} ${styles.widgetS2}`}
         >
           <span className={styles.widgetS1Title}>PODIUM</span>
           <ul >

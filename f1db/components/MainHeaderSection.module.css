@@ -70,4 +70,7 @@
     .headerDescription {
         font-size: 1.2rem;
     }
+    .widgetS2 {
+      display: none ;
+    }
 }
