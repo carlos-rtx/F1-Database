@@ -1,14 +1,12 @@
-import Confetti from "canvas-confetti"
+//import Confetti from "canvas-confetti"
 export default function Rand() {
-  let newRand = Math.floor(Math.random() * 6000)
+  let newRand = Math.floor(Math.random() * 60)
   return (
     <>
       {newRand === 35 ? <div>
         
       </div> :
-        <div>
-          
-        </div>
+        <div></div>
       }
     </>
   )
