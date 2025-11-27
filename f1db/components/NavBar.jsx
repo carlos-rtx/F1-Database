@@ -144,7 +144,71 @@ export default function NavBar() {
         </li>
       </ul>
     </nav>
+    
   );
 }
-//examen el 25, revisión de libreta el 2 de diciembre, entrega de calificaciones, 3 diciembre
+//[examen el 25],revisión de libreta el 2 de diciembre, entrega de calificaciones, 3 diciembre
 //Química 
+//2 clases, se suspende evaluación 
+//E.F
+//tecnología entregado
+//Álgebra exámen mañana a las 4
+//Terminar para hoy [26-Nov-25], Historia, psicología part 1 y química después de dormir 
+//Objetivos para manaña {
+//Revision de libro y libreta filosofía.
+//situación: "dudosa"
+//}
+//viernes emprendimiento 
+//(Thu, Nov 27) => {
+//6 en Álgebra, 1 menos
+//situación dudosa en Lógica 
+//Extra asegurado en Lenguaje
+//para mañana terminar trabajo de inglés, emprendimiento
+//tecnología entregado, máxima nota:7, predicción: 5, en este contexto, 1 menos
+//contacto con la maestra de química, si se puede el examen entonces máxima 7, sin embargo necesito 8, necesito diplomacia 
+//Situación actual=> {
+//1 menos, 3 slots ocupados, 2 dudosas, comunicación aún no completada, necesito 3 en tutoría, negociación incompleta 
+//a partir de hoy se creará un objeto con la situación del día , con save score en el que 1 representa insalvable y 10 es salvado
+let CurrentSituation27Nov = {
+  Álgebra: {
+    State: "Saved!",
+    Save_score: 9
+  },
+  English: { 
+    State : "Risky",
+    Save_score : 5
+    
+  },
+  Language: { 
+    State: "Doomed",
+    Save_score: 1
+  },
+  Logic: {
+    State: "Doubtful",
+    Save_score: 7
+    
+  },
+  Chemistry: {
+    State: "Risky",
+    Save_score: 5
+  },
+  Tutoring:{
+    State: "Into a stupid negociation for a 3",
+    Save_score: 6
+  },
+  History: {
+    State: "Doubtful but favorable",
+    Save_score: 7 //int
+  },
+  Entrepreneurship: {
+    State: "Doomed but savable",
+    Save_score: 7
+    
+  },
+  
+  Technology: {
+    State: "Waiting...",
+    Save_score: 8
+}
+}
+//}
