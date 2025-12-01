@@ -7,8 +7,8 @@
     align-items: center;
 }
 .widget {
-    display: flex;
-    background: #0005;
+display: flex;
+background: #0005;
   backdrop-filter: blur(10px);
   border: 1px solid #fff5;
   color: white;
@@ -56,3 +56,4 @@
         height: auto;
     }
 }
+/**/

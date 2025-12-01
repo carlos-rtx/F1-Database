@@ -65,12 +65,11 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
-        align-items: flex-start;
     }
     .headerDescription {
         font-size: 1.2rem;
     }
     .widgetS2 {
-      display: none ;
+      display: none;
     }
 }

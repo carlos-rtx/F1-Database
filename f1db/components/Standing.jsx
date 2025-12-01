@@ -1,5 +1,4 @@
 import React from "react";
-
 //main document structure
 export default function F1DbMain() {
   return (
