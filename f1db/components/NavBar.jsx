@@ -209,6 +209,66 @@ let CurrentSituation27Nov = {
   Technology: {
     State: "Waiting...",
     Save_score: 8
-}
+},
+  Psychology: {
+    State: "Fucked but not as much as fucking language",
+    Save_score: 3
+  }
 }
 //}
+//28-11-2025
+//Inglés en ordinario, psicológia fuera de la ecuación, salvada, hoy se entrega historia y emprendimiento, con suerte la paso, -1 slot y -1 mas si paso ed.fisica en ordinario, matar filosofía en ordinario if necessary, química en riesgo, pero chance y si se puede salvar aunque sea en ordinario también 
+//riesgos potenciales: tutoría y lenguaje que ya está en extra, cada maestro dice un número diferente (4-5-3) de slots, prefiero ir por el mínimo 
+//al llegar empezar a completar la libreta de química, en el mejor de los casos puedo negociar el ordinario o el +2 o +3 casi lol;
+let CurrentSituation28Nov = {
+  Álgebra: {
+    State: "Almost saved",
+    Save_score: 9
+  },
+  English: { 
+    State : "Ordinary",
+    Save_score : 7
+    
+  },
+  Language: { 
+    State: "Doomed",
+    Save_score: 1
+  },
+  Logic: {
+    State: "jodido",
+    Save_score: 7
+    
+  },
+  Chemistry: {
+    State: "Risky",
+    Save_score: 5
+  },
+  Tutoring:{
+    State: "Into a stupid negociation for a 3",
+    Save_score: 2
+  },
+  History: {
+    State: "Doubtful but favorable",
+    Save_score: 7 //int
+  },
+  Entrepreneurship: {
+    State: "Doomed but savable",
+    Save_score: 7
+    
+  },
+  
+  Technology: {
+    State: "Waiting...",
+    Save_score: 8
+},
+  Psychology: {
+    State: "saved",
+    Save_score: 10
+  }
+}
+//30 de noviembre, previa de la última semana 
+//it's lit
+//end1
+//video explicando los fundamentos de gimnasia vistos en clase: 
+//rodada de hombro, al frente en C, rodada atras den C, parado de omóplatos, y parada de 3 puntos 
+//para el lunes
