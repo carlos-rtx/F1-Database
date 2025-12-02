@@ -45,6 +45,9 @@ background: #0005;
         flex-direction: column;
         align-items: center;
     }
+    .widgetS2 {
+        display: none;
+    }
     .widgetImageContainer {
         border-right: none;
         border-bottom: 1px solid #fff5;

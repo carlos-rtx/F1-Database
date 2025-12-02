@@ -17,7 +17,7 @@ export default function NavBar() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
+console.log("NavBar loaded")
     if (!isMobile) {
       isMenuOpen && setIsMenuOpen(false);
       return (
@@ -269,6 +269,12 @@ let CurrentSituation28Nov = {
 //30 de noviembre, previa de la última semana 
 //it's lit
 //end1
+//1 de Diciembre de 2025
 //video explicando los fundamentos de gimnasia vistos en clase: 
-//rodada de hombro, al frente en C, rodada atras den C, parado de omóplatos, y parada de 3 puntos 
-//para el lunes
+//rodada de hombro, rodada 
+//al frente en C, rodada atras den C, parado de omóplatos, y parada de 3 puntos 
+//vídeo para el lunes (ordinario ed.física)
+//2 de Diciembre 
+//Química terminado, a esperar examen 
+//esperar calificaciones de Álgebra y Lógica, máxima potencia en exámenes de química e inglés 
+//straight up 
