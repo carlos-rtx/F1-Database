@@ -279,5 +279,6 @@ let CurrentSituation28Nov = {
 //esperar calificaciones de Álgebra y Lógica, exámenes de química e inglés 
 //no hubo Álgebra
 //[anotaciones de tutoría para el viernes 5 de diciembre:
-//$150 para el convivio, 60 de cooperación y 80-90 del regalo
-//Quién me tocó: Isabella
+//$150 para el convivio, 60 de cooperación (2 ordenes de tacos de canasta) y 80-90 del regalo
+//Quién me tocó para el intercambio: Isabella]
+
