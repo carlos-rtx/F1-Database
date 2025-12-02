@@ -1,7 +1,10 @@
 class Exception extends Error {
-  constructor() {
+  constructor(DebugMessage) {
     super()
+    ExceptionDate = new Date()
+    
   }
+  
   
 }
 export default Exception;

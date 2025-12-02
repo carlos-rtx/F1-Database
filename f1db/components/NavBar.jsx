@@ -268,7 +268,7 @@ let CurrentSituation28Nov = {
 }
 //30 de noviembre, previa de la última semana 
 //it's lit
-//end1
+//endl (first week is over)
 //1 de Diciembre de 2025
 //video explicando los fundamentos de gimnasia vistos en clase: 
 //rodada de hombro, rodada 
@@ -276,5 +276,8 @@ let CurrentSituation28Nov = {
 //vídeo para el lunes (ordinario ed.física)
 //2 de Diciembre 
 //Química terminado, a esperar examen 
-//esperar calificaciones de Álgebra y Lógica, máxima potencia en exámenes de química e inglés 
-//straight up 
+//esperar calificaciones de Álgebra y Lógica, exámenes de química e inglés 
+//no hubo Álgebra
+//[anotaciones de tutoría para el viernes 5 de diciembre:
+//$150 para el convivio, 60 de cooperación y 80-90 del regalo
+//Quién me tocó: Isabella
