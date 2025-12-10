@@ -281,4 +281,138 @@ let CurrentSituation28Nov = {
 //[anotaciones de tutoría para el viernes 5 de diciembre:
 //$150 para el convivio, 60 de cooperación (2 ordenes de tacos de canasta) y 80-90 del regalo
 //Quién me tocó para el intercambio: Isabella]
-
+//examen de inglés retrasado para el siguiente martes (speaking & listening)
+//a solo media hora de conocer mi nota de Filosofía 
+//no fué media hora, pero medio día y ni alcanzó ptm
+//3 de diciembre 
+//no hay algebra, aun no entregan calificaciones 
+//ya tengo la mitad de mi plan académico en ordinario y extra 
+//hoy hay psicologia, ojalá y entregue calificaciones 
+//ordinario en filosofía, y química, no se si me alcance, estoy empezando a tener dudas respecto a emprendimiento, necesito ver qué pedo
+//ni puta idea de tutoría y ahora me meten un gasto de 150$ por sus mamadas de navidad 
+//ya completé la primera parte del ordinario de Inglés, sin embargo los resultados fueron desfavorables, un 6 que me deja con 0 margen
+//el martes es el siguiente examen y esto es dolor
+//jueves 11 de Diciembre examen ordinario de Lógica y Argumentación (solo primer parcial )
+//
+let CurrentSituation3Dic = {
+  Álgebra: {
+    State: "fuck",
+    Save_score: 5
+  },
+  English: { 
+    State : "Ordinary",
+    Save_score : 9
+    
+  },
+  Language: { 
+    State: "Doomed",
+    Save_score: 1
+  },
+  Logic: {
+    State: "ordinario",
+    Save_score: 1
+    
+  },
+  Chemistry: {
+    State: "fucked",
+    Save_score: 8
+  },
+  Tutoring:{
+    State: "i dont fucking know",
+    Save_score: 2
+  },
+  History: {
+    State: "yes",
+    Save_score: 10 //int
+  },
+  Entrepreneurship: {
+    State: "im losing my sanity",
+    Save_score: 6
+    
+  },
+  
+  Technology: {
+    State: "good.",
+    Save_score: 10
+},
+  Psychology: {
+    State: "saved",
+    Save_score: 10
+  }
+}
+//4 de Diciembre del 2025
+//Salvamos Emprendimiento, y con esto el conteo aumenta a: {
+//Emprendimiento, Historia, Tecnología y Psicologia 
+//}
+//Desgraciadamente no todo es bueno, me volví a quedar a un miserable punto de pasar Álgebra, en cuanto a Tutoría TILL FURTHER NOTICE
+//Hoy no hay más entregas de notas, quizá pueda convencer a la de Álgebra de subir un puntito, ni tengo ni puta idea de cuando son los ordinarios de Química, necesito investigar la inscripción al Periodo Extraordinario para Lenguaje 
+//A 0.13 puntos de pasar Álgebra 
+//Martes entregar todas las tareas de la 1 a la 8 en papel, hoja blanca 
+//examen ordinario de química el Jueves, los días antes va a dejar actividades 
+//para derecho a examen de Álgebra, entregar las tareas de 1 a 8 en hoja blanca para el martes 
+//5.87 maldita sea 
+//carajo
+//5 de Diciembre 
+//8 de Diciembre
+//Lunes, ordinario de ef hoy, ya hice el vídeo, si todo sale bien, es una menos.
+//al llegar hacer las actividades de química y Álgebra, necesarias para el derecho a examen, estudiar inglés y preparar rutina de base para speaking 
+//miércoles se estudia lógica y química parte 2
+//jueves examenes de lógica y química, viernes libre
+//aun no se nada de tutoría 
+// no llega el de educación física y ya son las 9:41
+//al final no llegó pero me revisó el vídeo 
+//Miércoles 10 de Diciembre 
+//2 menos, Álgebra e Inglés fuera, el siguiente objetivo es editar el vídeo de Ed fisica y estudiar para mañana que llego a las 9 y salgo a las 12
+//va a ser mi día mas complicado y cargado hasta la fecha, toca arreglar mi cuarto, mi reputación y mi higiene
+//un 6.9 en Álgebra que hace que esta sea la 2da materia en la que saco SIX SEVEN ALGEBRA IS SO TUFF BOIIIII 😂 ✌️
+//estamos al borde de las 400 líneas de código, es buen momento para retomar ese objeto
+let Status10Dic = {
+  EdFis: {
+    State: "Ordinario pero en curso de salvación, debería de caer pronto",
+    Save_score: 7
+  },
+  Álgebra: {
+    State: "1 menos",
+    Save_score: true
+  },
+  English: { 
+    State : "1 menos",
+    Save_score : true
+    
+  },
+  Language: { 
+    State: "Esperando la emisión de listas de extraordinario",
+    Save_score: false
+  },
+  Logic: {
+    State: "ordinario",
+    Save_score: 7
+    
+  },
+  Chemistry: {
+    State: "Ordinario",
+    Save_score: 7
+  },
+  Tutoring:{
+    State: "I'm not considering ts anymore (ts != this)",
+    Save_score: undefined 
+  },
+  History: {
+    State: "1 menos",
+    Save_score: true //bool or int
+  },
+  Entrepreneurship: {
+    State: "1 menos",
+    Save_score: true
+    
+  },
+  
+  Technology: {
+    State: "1 menos.",
+    Save_score: true
+},
+  Psychology: {
+    State: "1 menos",
+    Save_score: true
+  }
+}
