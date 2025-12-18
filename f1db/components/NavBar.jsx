@@ -171,7 +171,7 @@ console.log("NavBar loaded")
 //a partir de hoy se creará un objeto con la situación del día , con save score en el que 1 representa insalvable y 10 es salvado
 let CurrentSituation27Nov = {
   Álgebra: {
-    State: "Saved!",
+    State: "Saved!", //12-Dic: I miscalculated this.
     Save_score: 9
   },
   English: { 
@@ -366,6 +366,7 @@ let CurrentSituation3Dic = {
 //va a ser mi día mas complicado y cargado hasta la fecha, toca arreglar mi cuarto, mi reputación y mi higiene
 //un 6.9 en Álgebra que hace que esta sea la 2da materia en la que saco SIX SEVEN ALGEBRA IS SO TUFF BOIIIII 😂 ✌️
 //estamos al borde de las 400 líneas de código, es buen momento para retomar ese objeto
+//es momento de rehacer el objeto
 let Status10Dic = {
   EdFis: {
     State: "Ordinario pero en curso de salvación, debería de caer pronto",
@@ -416,3 +417,74 @@ let Status10Dic = {
     Save_score: true
   }
 }
+//jueves 11 de diciembre del 2025
+//química salvada, ya hice examen de Lógica, esperando un 6-7/8 (six seven tuff boi), espero recibir la revisión de mi trabajo de PE a las 5 PM, sigo sin tener noticias respecto a tutoría, sin embargo en el peor de los casos aún sigo en riesgo
+//ya no estoy en riesgo de educación física: 12 de Diciembre, 7/8 y 7 de promedio, sigo sin saber ni madres de tutoría pero a este punto ya no importa, solo queda lógica, si todo sale as expected entonces solo tendré que maniobrar el 19 para ir a inscribirme al extraordinario de lenguaje 
+//90 pesos y 4kg de basura me separan de la pc
+//LA FLAME
+//STRAIGHT UP 
+//IT'S LIT
+//penúltimo objeto del año, y antepenúltimo de todo esto (esperemos):
+let Status12Dic = {
+  EdFis: {
+    State: "1 fucking menos",
+    Save_score: true 
+  },
+  Álgebra: {
+    State: "1 menos",
+    Save_score: true
+  },
+  English: { 
+    State : "1 menos",
+    Save_score : true
+    
+  },
+  Language: { 
+    State: "Esperando la emisión de el 19",
+    Save_score: undefined 
+  },
+  Logic: {
+    State: "ordinario, ya entreguen esa madre",
+    Save_score: 7
+    
+  },
+  Chemistry: {
+    State: "8/8, 1 menos y 8 de calificación final",
+    Save_score:  true
+  },
+  Tutoring:{
+    State: "I'm not considering ts anymore (ts != this)",
+    Save_score: undefined 
+  },
+  History: {
+    State: "1 menos",
+    Save_score: true //bool or int
+  },
+  Entrepreneurship: {
+    State: "1 menos",
+    Save_score: true
+    
+  },
+  
+  Technology: {
+    State: "1 menos.",
+    Save_score: true
+},
+  Psychology: {
+    State: "1 menos",
+    Save_score: true
+  }
+}
+//falta muy poco señores, cada vez menos...
+//a partir del siguiente objeto solo cambiaré lo necesario 
+//--------------!----------------
+//Ya recibí los resultados de lógica. 
+let Outcome = 7.33 //true
+//14 de Diciembre de 2025: 
+//SI PASÉ LÓGICA HIJOS DE PERRA RAHHHHHH, POR FIN UNA BUENA NOTICIA DESPUÉS DE TANTO PINCHE SUFRIMIENTO JODER 
+//ts has to be bottom 5 months oat 🥀
+//El martes llega la PC, sin embargo hay cosas mas grandes que me joden más 
+//wed, dec 17
+//hoy finalmente llega la psu, 
+//im getting really lucky with this
+//la inscripción es sin costo y en linea a las 11am,
